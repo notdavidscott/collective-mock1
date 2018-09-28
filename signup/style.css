@@ -6,15 +6,21 @@ font-family: 'Courgette', cursive;
 font-family: 'Calligraffitti', cursive;
 */
 body {
-    width: 100%;
-    height: auto;
-    background-color: #f3f3f3;
+    background-image: url("../assets/imgs/abstract-adult-background-1079033.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.signup-content {
+    opacity: 1 !important;
+  
 }
 
 nav a:hover{
-    color:#DCAE1D !important;
-    transition: .75s;
- }
+   color:#DCAE1D !important;
+   transition: 1s;
+}
 .brand-logo {
   font-family: 'Caveat', cursive;
   letter-spacing: 1px;
@@ -25,48 +31,34 @@ nav a:hover{
    font-size: 2em;
 }
 
-.login-section {
-    background-color: #f3f3f3;
-    padding-bottom: 20px;
-}
-
-.login {
-    padding: 15% 7% 0 4%;
-}
-
-.login h4 {
-    padding-bottom: 30px;
-}
-
-.OAuth-box {
-    padding-top: 15%;
-}
-
-.fa-facebook-f {
-    margin-left: 10px;
-   
-}
-.login-box {
-   text-align: center;
-}
 
  /* label color */
  .input-field label {
-    color: #7e7e7e;
+    color: #000000;
   }
  /* label focus color */
  .input-field input[type=text]:focus + label {
     color: #DCAE1D !important;
   }
+  .input-field input[type=email]:focus + label {
+    color: #DCAE1D !important;
+  }
+
+    /* label focus color */
+ .input-field input[type=password]:focus + label {
+    color: #DCAE1D !important;
+  }
+  
   /* label underline focus color */
   .input-field input[type=text]:focus {
     border-bottom: 0px solid #7e7e7e !important;
     box-shadow: 0 1px 0 0 #7e7e7e !important;
   }
-   /* label focus color */
- .input-field input[type=password]:focus + label {
-    color: #DCAE1D !important;
+  .input-field input[type=email]:focus {
+    border-bottom: 0px solid #7e7e7e !important;
+    box-shadow: 0 1px 0 0 #7e7e7e !important;
   }
+ 
   /* label underline focus color */
   .input-field input[type=password]:focus {
     border-bottom: 0px solid #000 !important;
