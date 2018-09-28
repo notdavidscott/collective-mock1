@@ -11,9 +11,9 @@ body {
     background-color: #f3f3f3;
 }
 
-nav a:hover{
+nav li a:hover{
     color:#DCAE1D !important;
-    transition: .75s;
+    transition: cubic-bezier(1, 0, 0, 1), 1s;
  }
 .brand-logo {
   font-family: 'Caveat', cursive;
@@ -39,7 +39,7 @@ nav a:hover{
 }
 
 .OAuth-box {
-    padding-top: 15%;
+    padding-top: 8%;
 }
 
 .fa-facebook-f {
